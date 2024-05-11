@@ -1,6 +1,6 @@
-# ts-rental
+# ex-rental
 
-ts-rental is a car rental script designed for the ESX and QBCore frameworks in FiveM. It features a sleek user interface and provides a seamless car rental experience.
+ex-rental is a car rental script designed for the ESX and QBCore frameworks in FiveM. It features a sleek user interface and provides a seamless car rental experience.
 
 ## Features
 
