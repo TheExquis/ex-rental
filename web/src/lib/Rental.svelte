@@ -40,6 +40,9 @@
         background: transparent !important;
     }
     .rental-container{
+      display: flex;
+      flex-flow: column;
+      align-items: center;
       border-top: 5px solid #314D94;
       background: #16203C;
       width: 19%;
@@ -53,6 +56,7 @@
     flex-flow: column;
     justify-content: space-between;
     padding: 4%;
+    width: 98%;
     height: 15%;
   }
   span{
@@ -64,10 +68,12 @@
     align-items: flex-start;
   }
   .vehicle-container{
-    display: flex;
-    flex-flow: row wrap;
+    display: grid;
+    width: 95%;
+    padding: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 175px;
     gap: 2%;
-    justify-content: center;
     height: 80%;
     margin-top: 5%;
     overflow-y: scroll;

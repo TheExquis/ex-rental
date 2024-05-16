@@ -47,8 +47,8 @@
   .card-container{
     scroll-snap-align: start;
     background-color: #1E305E;
-    width: 45%;
-    height: 45%;
+    width: 100%;
+    height: 100%;
     padding: 7px 7px 0px 7px;
   }
   img{
